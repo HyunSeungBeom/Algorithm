@@ -14,7 +14,8 @@ function solution(n, w, num) {
     }
     direction *= -1; // 방향 전환
   }
-
+  console.log(boxs, 'boxs);
+  
   for (let values of boxs) {
     let index = values.indexOf(num);
     if (index !== -1) {
@@ -24,3 +25,15 @@ function solution(n, w, num) {
 
   return 0;
 }
+
+// [
+//   [ 1, 12, 13 ],
+//   [ 2, 11, 14 ],
+//   [ 3, 10, 15, 22 ],
+//   [ 4, 9, 16, 21 ],
+//   [ 5, 8, 17, 20 ],
+//   [ 6, 7, 18, 19 ]
+// ] boxs
+// 3
+// [ [ 1, 6, 7, 12, 13 ], [ 2, 5, 8, 11 ], [ 3, 4, 9, 10 ] ] boxs
+// 4
