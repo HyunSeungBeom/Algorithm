@@ -15,9 +15,6 @@ function solution(today, terms, privacies) {
 
     chDate.setMonth(chDate.getMonth() + termType[type]);
 
-    expire.setHours(0, 0, 0, 0);
-    chDate.setHours(0, 0, 0, 0);
-
     if (chDate <= expire) {
       answer.push(idx + 1);
     }
