@@ -20,6 +20,6 @@ function solution(n, m) {
   var lcm = (n * m) / gcd;
 
   answer.push(gcd, lcm);
-
+ 
   return answer;
 }
