@@ -8,7 +8,7 @@ function solution(n) {
     }
   }
 
-
+ 
   answer = array.reduce((acc, cur) => {
     return acc + cur;
   }, 0);
