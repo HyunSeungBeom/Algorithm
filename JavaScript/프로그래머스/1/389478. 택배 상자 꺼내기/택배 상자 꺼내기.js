@@ -14,7 +14,6 @@ function solution(n, w, num) {
     }
     direction *= -1; // 방향 전환
   }
-  console.log(boxs, 'boxs);
   
   for (let values of boxs) {
     let index = values.indexOf(num);
