@@ -1,13 +1,12 @@
 function solution(N, stages) {
   let answer = [];
-
   let count = new Array(N + 2).fill(0);
+    
   for (let stage of stages) {
     count[stage]++;
   }
 
   let totalPlayers = stages.length; 
-
   let failRate = [];
 
   for (let i = 1; i <= N; i++) {
