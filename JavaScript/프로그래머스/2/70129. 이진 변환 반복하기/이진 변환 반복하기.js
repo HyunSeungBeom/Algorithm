@@ -7,7 +7,7 @@ function solution(s) {
     s = s.replace(/0/g, "");
     removedZero += beforeLength - s.length;
 
-    s = s.length.toString(2);
+    s = s.length.toString(2); 
     count++;
   }
 
