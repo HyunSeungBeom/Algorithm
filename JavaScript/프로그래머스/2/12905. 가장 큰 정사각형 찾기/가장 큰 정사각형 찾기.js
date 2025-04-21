@@ -3,7 +3,7 @@ function solution(board) {
   const cols = board[0].length;
   let max = 0;
 
-  const dp = Array.from(Array(rows), () => Array(cols).fill(0));
+  const dp = Array.from({length : rows }, () => Array(cols).fill(0));
 
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
