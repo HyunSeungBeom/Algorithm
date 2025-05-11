@@ -12,7 +12,7 @@ function solution(n, w, num) {
       boxs[idx].push(boxNum);
       if (boxNum === n) break;
     }
-    direction *= -1; 
+    direction *= -1;
   }
 
   for (let values of boxs) {
