@@ -28,7 +28,7 @@ function canSolve(diffs, times, limit, level) {
     }
 
     if (total > limit) {
-      return false;
+      return false; 
     }
   }
 
